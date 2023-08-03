@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidenMenu()"></i>
+            <ul>
+                <li><a href="#navLinks">Home</a></li>
+                <li><a href="#package">Our package</a></li>
+                <li><a href="#boxclosing">Call Us</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Welcome to our Travel Agent</h1>
+            <p>We are ready to serve you if you want to vacation to various places in the world, using our travel</p>
+            <a href="" class="hero-btn">travel</a>
+        </div>
+    </section>
+    <main>
+    <center>
+      <div class="title">
+        <h1>Your Trusted Travel Agent's</h1>
+        <br><br>
+        <p class="title2">Your happiness is our hapiness</p>
+      </div>
+
+
+      <!--Slide-->
+      <div id="content">
+        <div id="boxContent1">
+          <div id="content1">
+            <div class="slide-container">
+              <div class="slide fade">
+                <img src="./images/img1.jpg" alt="" />
+              </div>
+
+              <div class="slide fade">
+                <img src="./images/img2.jpg" alt="" />
+              </div>
+
+              <div class="slide fade">
+                <img src="./images/img3.jpg" alt="" />
+              </div>
+            </div>
+
+            <div class="subTitle">
+              <i>"Liburan jadi menyenangkan bersama Travel <br />
+                Agentku."</i>
+            </div>
+            <div class="icons">
+              <img
+                src="images/icons.png"
+                alt=""
+              />
+
+              <div class="iconTesxt">
+                <b> Florence Hugles</b>
+                <div><em>Ibu Rumah Tangga, 28</em></div>
+              </div>
+            </div>
+            <center>
+              <div id="or"></div>
+            </center>
+
+       <!--List-->
+            <div class="list">
+              <p>
+               <b>Use this space to provide users with more information <br />
+                about your offer. Consider it a follow-up to your headline
+                <br />
+                and explain the benefits of your service or product.</b> 
+              </p>
+            </div>
+
+            <div>
+              <div id="listText">
+                <div class="box">
+                  <div class="listText1">1</div>
+                  <div class="listText2">
+                    Your first feature, written in the form of a <br />
+                    benefit statement.
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="listText1">2</div>
+                  <div class="listText2">
+                    Your second feature, written in the form <br />
+                    of a benefit statement.
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="listText1">3</div>
+                  <div class="listText2">
+                    Your third feature written, in the form of <br />
+                    a benefit statement.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+     <!--Contact-->
+    <div class="content">
+      <div class="boxContent2">
+        <h3>Contact Us</h3>
+          <p>
+            Sales akan menghubungi anda 1x24 <br/>
+            Jam setelah data kami terima.
+          </p>
+          <form id="inputForm" method="post" name="form" onsubmit="return validationName()" action="#" autocomplete="off">
+            <div>
+              <div>Your name?</div>
+              <input type="text" id="name" name="name" placeholder="First and last name"/>
+              <div id="nameError" class="error-message1">
+              Please fill up your Name
+              </div>
+              </div>
+              <div>
+                <div>Email Address:</div>
+                <input type="text" id="email" name="email" placeholder="example@email.com" onkeydown="validationEmail()"/>
+                <div id="emailError" class="error-message"></div>
+              </div>
+              <div>
+                <div>What are you interested in?</div>
+                <select name="" id="">
+                  <option value="">Select option</option>
+                  <option value="">Bali</option>
+                  <option value="">Jepang</option>
+                  <option value="">Singapore</option>
+                  <option value="">Bandung</option>
+                  <option value="">Surabaya</option>
+                  <option value="">Third Feature</option>
+                </select>
+              </div>
+              <div>
+                <button type="submit" value="submit">SEND</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+        <!-- our Package -->
+      <div id="ourPackage">
+        <h1>Our Package</h1>
+      </div>
+      <div>
+        <div id="package">
+          <div id="threeBox">
+            <div class="boxInside">
+              <div>
+                <img src="images/icon2.png"alt=""/>
+              </div>
+              <div class="destination">
+                <div>Bali</div>
+                <p>
+                  This description supports <br/>
+                  and extends the bullet point <br/>
+                  above.
+                </p>
+              </div>
+            </div>
+
+            <div class="boxInside">
+              <div>
+                <img src="images/icon2.png"alt=""/>
+              </div>
+              <div class="destination">
+                <div>Japan</div>
+                <p>
+                  This description supports <br/>
+                  and extends the bullet point <br/>
+                  above.
+                </p>
+              </div>
+            </div>
+            <div class="boxInside">
+              <div>
+                <img src="images/icon2.png"alt=""/>
+              </div>
+              <div class="destination">
+                <div>Singapore</div>
+                <p>
+                  This description supports <br />
+                  and extends the bullet point <br />
+                  above.
+                </p>
+              </div>
+            </div>
+          </div>
+          <center>
+            <div id="or"></div>
+          </center>
+          <div id="threeBox">
+            <div class="boxInside">
+              <div>
+                <img src="images/icon3.png"alt=""/>
+              </div>
+              <div class="destination">
+                <div>Bandung</div>
+                <p>
+                  This description supports <br />
+                  and extends the bullet point <br />
+                  above.
+                </p>
+              </div>
+            </div>
+            <div class="boxInside">
+              <div>
+                <img src="images/icon3.png"alt=""/>
+              </div>
+              <div class="destination">
+                <div>Surabaya</div>
+                <p>
+                  This description supports <br />
+                  and extends the bullet point <br />
+                  above.
+                </p>
+              </div>
+            </div>
+            <div class="boxInside">
+              <div>
+                <img src="images/icon3.png"alt=""/>
+              </div>
+              <div class="destination">
+                <div>Third Feature</div>
+                <p>
+                  This description supports <br />
+                  and extends the bullet point <br />
+                  above.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+       <!-- closing -->
+       <div>
+        <div class="closing">
+          <h1>Your Closing Argument Headline</h1>
+          <br>
+          <div id="boxclosing">
+            <div class="textClosing">
+              Suspendisse egestas rhoncus urna in bibendum. Donec urna neque,
+              euismod sed <br />
+              justo quis, convallis tincidunt risus. Phasellus fringilla odio
+              vel erat fringilla,
+            </div>
+            <div>
+              <button id="Call">
+                <a href="#boxContent2"> <b> CALL TO ACTION</b></a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </center>
+  </main>
+
+  <!-- footer -->
+  <footer>
+    <div>
+      <center id="ending">
+        <img src="./images/logo.png" alt="" />
+        <div id="endingText">
+          <div>Terms of Service</div>
+          <div>Privacy Policy</div>
+        </div>
+        <div>&copy 2023 Travel Agentku</div>
+      </center>
+    </div>
+  </footer>
+
+    </center>
+    <!--Course-->
+    <!--<section class="course">
+        <h1>Course We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia esse labore voluptatem rem id ut.</p>
+            </div>
+            <div class="course-col">
+                <h3>Denger</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia esse labore voluptatem rem id ut.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia esse labore voluptatem rem id ut.</p>
+            </div>
+        </div> -->
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
